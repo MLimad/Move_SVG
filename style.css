@@ -24,6 +24,13 @@ body {
 
 }
 
+.heading span{
+    padding: 5px 10px;
+    background-color: #3156c7;
+    color: white;
+    border-radius: 3px;
+}
+
 .heading p {
     color: #274b5b;
 }
