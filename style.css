@@ -11,6 +11,16 @@ body {
     align-items: center;
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+body::before{
+    content: 'By MLimad';
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    color: #e2d6ce;
 }
 
 .heading {
